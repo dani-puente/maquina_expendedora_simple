@@ -85,4 +85,11 @@ public class MaquinaExpendedoraSimple {
         precioBillete = precioNuevo;
         return precioNuevo;
     }
+    
+    /**
+     * Metodo que permite reducir el precio del billete
+     */
+    public void reducirPrecioBillete(int reduccion){
+        precioBillete -= reduccion;
+    }
 }
