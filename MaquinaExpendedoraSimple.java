@@ -70,4 +70,11 @@ public class MaquinaExpendedoraSimple {
         // Queda preparada para el proximo cliente
         balanceClienteActual = 0;
     }
+    
+    /**
+     * Metodo getter total de dinero acumulado
+     */
+    public void totalDineroAcumulado() {
+        System.out.println("Dinero introducido: " + balanceClienteActual);
+    }
 }
