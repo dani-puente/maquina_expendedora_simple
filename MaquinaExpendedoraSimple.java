@@ -74,7 +74,7 @@ public class MaquinaExpendedoraSimple {
     /**
      * Metodo getter total de dinero acumulado
      */
-    public void totalDineroAcumulado() {
-        System.out.println("Dinero introducido: " + balanceClienteActual);
+    public int getDineroAcumulado() {
+         return balanceClienteActual;
     }
 }
