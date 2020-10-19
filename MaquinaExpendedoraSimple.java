@@ -75,6 +75,6 @@ public class MaquinaExpendedoraSimple {
      * Metodo getter total de dinero acumulado
      */
     public int getDineroAcumulado() {
-         return balanceClienteActual;
+         return totalDineroAcumulado;
     }
 }
